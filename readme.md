@@ -1,3 +1,7 @@
+THIS REPOSTIORY WAS CREATED WHILE LEARNING THE RASA FRAMEWORK.
+
+These are the steps that I followed.
+
 1.
     installed Python 3.9.0
 
@@ -30,6 +34,11 @@
         added
             utter_weather:
             - text: "The weather is great today!
+
+    in /domain.yml,
+        added under
+            intents:
+                weather
 
     ran commands:
         rasa train
